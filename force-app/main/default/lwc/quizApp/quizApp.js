@@ -44,7 +44,6 @@ export default class QuizApp extends LightningElement {
     get isScoredFull()
     {
         return `slds-text-heading_large ${this.correctAnswers===this.myQuestions.length?'slds-text-color_success':'slds-text-color_error'}`;
-        //return "slds-text-heading_large" + this.correctAnswers===this.myQuestions.length?"slds-text-color_success":"slds-text-color_error";
     }
     changeHandler(event)
     {
